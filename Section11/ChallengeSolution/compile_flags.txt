@@ -4,6 +4,6 @@
 -Ic:\MinGW\lib\gcc\mingw32\8.2.0\include
 -Ic:\MinGW\include
 -Ic:\MinGW\lib\gcc\mingw32\8.2.0\include-fixed
--I"C:\PLACEMENT PREP\udemy_course\cpp-udemy\source_codes\Section11\ChallengeSolution"
+-I"C:\PLACEMENT PREP\udemy_course\cpp-udemy\udemy-cpp-git\Section11\ChallengeSolution"
 -target
 i686-pc-windows-gnu
