@@ -1,1 +1,7 @@
 *.exe
+*.mk
+*.txt
+*.project
+*.workspace
+*.codelite
+Makefile
