@@ -9,7 +9,8 @@ void double_data(int *int_ptr) {
    *int_ptr *= 2;	
 }
 
-int main() {
+int main() 
+{
     int value {10};
     int *int_ptr {nullptr};
     
