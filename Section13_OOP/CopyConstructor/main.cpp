@@ -27,6 +27,8 @@ Player::Player(std::string name_val, int health_val, int xp_val)
             cout << "Three-args constructor for " + name << endl;
 }
 
+//copy constructor
+//assign values of source to the copy of the object that we are making
 Player::Player(const Player &source)
    // : name(source.name), health(source.health), xp{source.xp} {
        : Player {source.name, source.health, source.xp}  {

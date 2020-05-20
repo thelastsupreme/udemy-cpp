@@ -23,6 +23,9 @@ Deep::Deep(int d) {
     *data = d;
 }
 
+//only difference between deep copy and shallow copy 
+//in shallow we just took source.data
+//now we are allocating new memory and then we are assigning the value to the new memory
 Deep::Deep(const Deep &source)
     : Deep {*source.data} {
     cout << "Copy constructor  - deep copy" << endl;
