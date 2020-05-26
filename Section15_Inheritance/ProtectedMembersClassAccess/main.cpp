@@ -35,8 +35,8 @@ int main() {
     cout << "=== Base member access from base objects ===========" << endl;
     Base base;
     base.a = 100;   // OK
-//    base.b = 200;   // Compiler Error
-//    base.c = 300;   // Compiler Error
+//    base.b = 200;   // Compiler Error //since protected       
+//    base.c = 300;   // Compiler Error //since private
     
     cout << "=== Base member access from derived objects ===========" << endl;
     Derived d;
